@@ -2,6 +2,10 @@ Nos pidieron hacer una presentación indivudual
 
 nosotros humildemente escuchamos hacer una página web en parejas y este es nuestro trabajo
 
-y si vienes de la salle y vienes por iRiS: game on y contactanos por mds1gnal@proton.me 
+y si vienes de la salle y vienes por tema de iRiS contactanos por mds1gnal@proton.me 
+ 
+o te puedes meter a nuestras redes ("os responderemos antes por tiktok o proton") 
 
-o te puedes meter a nuestras redes ![(linktr.ee/mds1gnal)]
+![(linktr.ee/mds1gnal)]
+
+:octocat: game on
