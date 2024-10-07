@@ -8,32 +8,27 @@
     <link rel="stylesheet" href="https://unpkg.com/papercss@latest/dist/paper.css" />
     <link href="https://unpkg.com/aos@latest/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@latest/dist/aos.js"></script>
-    <script src="https://unpkg.com/@shgysk8zer0/konami@latest/konami.js"></script>
+    <script src="https://raw.githubusercontent.com/locomotivemtl/locomotive-scroll/refs/heads/master/dist/locomotive-scroll.js"></script>
     <script> AOS.init(); </script>
     <script>
-        const controller = new AbortController();
-        const { konami } = await import('https://unpkg.com/@shgysk8zer0/konami@latest/konami.js');
-
-        try {
-        await konami({
-            delay: 500,
-            target: document.getElementById('konami-target'),
-            signal: controller.signal,
-            capture: true,
-        });
-
-        var KICKASSVERSION='2.0';
-        var s = document.createElement('script');s.type='text/javascript';
-        document.body.appendChild(s);s.src='//hi.kickassapp.com/kickass.js';
-        void(0);
-} catch(err) {
-  // Signal was aborted
-}
+        (function () {
+            var scroll = new LocomotiveScroll();
+        })();
     </script>
     <!--Fin librerías-->
     <title>Mejora de la tecnología en Palencia</title>
 </head>
 <body id="konami-target">
     <marquee><h1>mejora de tecnología en palencia</h1></marquee>
+    <div data-scroll-container>
+        <div data-scroll-section>
+            <h1 data-scroll>Hey</h1>
+            <p data-scroll>👋</p>
+        </div>
+        <div data-scroll-section>
+            <h2 data-scroll data-scroll-speed="1">What's up?</h2>
+            <p data-scroll data-scroll-speed="2">😬</p>
+        </div>
+    </div>
 </body>
 </html>
