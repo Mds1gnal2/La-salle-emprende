@@ -11,9 +11,10 @@
     <script src="https://raw.githubusercontent.com/locomotivemtl/locomotive-scroll/refs/heads/master/dist/locomotive-scroll.js"></script>
     <script> AOS.init(); </script>
     <script>
-        (function () {
-            var scroll = new LocomotiveScroll();
-        })();
+        const scroll = new LocomotiveScroll({
+            el: document.getElementById("konami-target"),
+            smooth: true
+        });
     </script>
     <!--Fin librerías-->
     <title>Mejora de la tecnología en Palencia</title>
