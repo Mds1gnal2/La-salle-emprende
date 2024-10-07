@@ -6,6 +6,6 @@ y si vienes de la salle y vienes por tema de iRiS contactanos por mds1gnal@proto
  
 o te puedes meter a nuestras redes ("os responderemos antes por tiktok o proton") 
 
-![(linktr.ee/mds1gnal)]
+![a(linktr.ee/mds1gnal)]
 
 :octocat: game on
